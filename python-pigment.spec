@@ -8,6 +8,7 @@ Group:		Applications/Multimedia
 Source0:	http://elisa.fluendo.com/static/download/pigment/%{name}-%{version}.tar.gz
 # Source0-md5:	bfbc1976812f07436b57200574369926
 URL:		http://www.fluendo.com/elisa/
+BuildRequires:	pigment-devel >= 0.3.5
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
