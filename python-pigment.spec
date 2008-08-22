@@ -2,7 +2,7 @@ Summary:	Pigment python files
 Summary(pl.UTF-8):	Pytonowe pliki Pigmenta
 Name:		pigment-python
 Version:	0.3.5
-Release:	0.1
+Release:	1
 License:	GPL v3
 Group:		Applications/Multimedia
 Source0:	http://elisa.fluendo.com/static/download/pigment/%{name}-%{version}.tar.gz
