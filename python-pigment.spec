@@ -1,20 +1,20 @@
 Summary:	Python wrapper for Pigment library
 Summary(pl.UTF-8):	Pythonowy interfejs do biblioteki Pigment
 Name:		python-pigment
-Version:	0.3.5
+Version:	0.3.8
 Release:	1
 License:	LGPL v2+
 Group:		Libraries/Python
 Source0:	http://elisa.fluendo.com/static/download/pigment/pigment-python-%{version}.tar.gz
-# Source0-md5:	63b1d174040f48b08a3ba9c76fa8c352
+# Source0-md5:	4217563bbd223102e0b627465aecf672
 URL:		http://www.fluendo.com/elisa/
-BuildRequires:	pigment-devel >= 0.3.7
+BuildRequires:	pigment-devel >= 0.3.10
 BuildRequires:	pkgconfig
 BuildRequires:	python-devel
 BuildRequires:	python-pygobject-devel >= 2.8.0
 BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 1.234
-Requires:	pigment >= 0.3.7
+Requires:	pigment >= 0.3.10
 Requires:	python-pygobject >= 2.8.0
 Obsoletes:	pigment-python
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -53,6 +53,7 @@ rm -rf $RPM_BUILD_ROOT
 %doc AUTHORS ChangeLog NEWS README RELEASE TODO
 %attr(755,root,root) %{py_sitedir}/_pgmmodule.so
 %attr(755,root,root) %{py_sitedir}/_pgmgtkmodule.so
+%attr(755,root,root) %{py_sitedir}/_pgmimagingmodule.so
 %{py_sitescriptdir}/pgm
 %{_datadir}/pigment-python
 %{_examplesdir}/%{name}-%{version}
