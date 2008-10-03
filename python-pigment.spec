@@ -2,7 +2,7 @@ Summary:	Python wrapper for Pigment library
 Summary(pl.UTF-8):	Pythonowy interfejs do biblioteki Pigment
 Name:		python-pigment
 Version:	0.3.8
-Release:	1
+Release:	2
 License:	LGPL v2+
 Group:		Libraries/Python
 Source0:	http://elisa.fluendo.com/static/download/pigment/pigment-python-%{version}.tar.gz
