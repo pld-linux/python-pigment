@@ -1,20 +1,20 @@
 Summary:	Python wrapper for Pigment library
 Summary(pl.UTF-8):	Pythonowy interfejs do biblioteki Pigment
 Name:		python-pigment
-Version:	0.3.9
-Release:	2
+Version:	0.3.10
+Release:	1
 License:	LGPL v2+
 Group:		Libraries/Python
 Source0:	http://elisa.fluendo.com/static/download/pigment/pigment-python-%{version}.tar.gz
-# Source0-md5:	3f4159b2fe2a978adf450b1249f687a2
+# Source0-md5:	52ccb922ca7187171de4577ef4ae9aa5
 URL:		http://www.fluendo.com/elisa/
-BuildRequires:	pigment-devel >= 0.3.13
+BuildRequires:	pigment-devel >= 0.3.14
 BuildRequires:	pkgconfig
 BuildRequires:	python-devel
 BuildRequires:	python-pygobject-devel >= 2.8.0
 BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 1.234
-Requires:	pigment >= 0.3.10
+Requires:	pigment >= 0.3.14
 Requires:	python-pygobject >= 2.8.0
 Obsoletes:	pigment-python
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
